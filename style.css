@@ -8,45 +8,58 @@ body {
     text-align: center;
     font-size: 18px;
 }
+
 .wrappper {
     width: 100%;
     margin: 0 auto;
 }
+
 .wrappper:after {
     content: "";
     display: table;
     clear: both;
 }
+
 canvas {
     color: #fff;
     border: #fff dashed 2px;
     padding: 15px;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-transform: uppercase;
     margin: 5px 0;
 }
+
 h1 {
     font-size: 2.6em;
+    margin-top: 20px;
 }
+
 h2 {
     font-size: 1.6em;
 }
+
 p {
     font-size: 1.6em;
 }
+
 #alphabet {
     margin: 15px auto;
     padding: 0;
     max-width: 900px;
 }
+
 #alphabet:after {
     content: "";
     display: table;
     clear: both;
 }
+
 #alphabet li {
     float: left;
     margin: 0 10px 10px 0;
@@ -63,6 +76,7 @@ p {
     -khtml-border-radius: 5px;
     border: solid 1px #fff;
 }
+
 #alphabet li:hover {
     background: #303f9f;
     border: solid 1px #fff;
@@ -70,12 +84,14 @@ p {
     transition: all 1s ease-in;
     transition: all 0.3s ease-in-out;
 }
+
 #my-word {
     margin: 0;
     display: block;
     padding: 0;
     display: block;
 }
+
 #my-word li {
     position: relative;
     list-style: none;
@@ -84,6 +100,7 @@ p {
     padding: 0 10px;
     font-size: 1.6em;
 }
+
 .active {
     opacity: 0.4;
     filter: alpha(opacity=40);
@@ -94,6 +111,7 @@ p {
     transition: all 0.3s ease-in-out;
     cursor: default;
 }
+
 .active:hover {
     -moz-transition: all 1s ease-in;
     -moz-transition: all 0.3s ease-in-out;
@@ -106,11 +124,13 @@ p {
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
+
 #mylives {
     font-size: 1.6em;
     text-align: center;
     display: block;
 }
+
 button {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -127,6 +147,7 @@ button {
     margin: 10px;
     outline: none;
 }
+
 button:hover {
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
@@ -135,13 +156,15 @@ button:hover {
     border: solid 1px #fff;
     color: #303f9f;
 }
+
 @media (max-width: 767px) {
     #alphabet {
         padding: 0 0 0 15px;
-   }
+    }
 }
+
 @media (max-width: 480px) {
     #alphabet {
         padding: 0 0 0 25px;
-   }
+    }
 }

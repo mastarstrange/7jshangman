@@ -10,7 +10,7 @@ window.onload = function () {
     var chosenCategory;     // Selected catagory
     var getHint ;           // Word getHint
     var word ;              // Selected word
-    var guess ;             // Geuss
+    var guess ;             // Guess
     var geusses = [ ];      // Stored geusses
     var lives ;             // Lives
     var counter ;           // Count correct geusses
@@ -136,23 +136,23 @@ window.onload = function () {
      };
     
      torso = function() {
-       draw (60, 36, 60, 70);
+       draw (60, 36, 60, 80);
      };
     
      rightArm = function() {
-       draw (60, 46, 100, 50);
+       draw (60, 46, 75, 65);
      };
     
      leftArm = function() {
-       draw (60, 46, 20, 50);
+       draw (60, 46, 55, 65);
      };
     
      rightLeg = function() {
-       draw (60, 70, 100, 100);
+       draw (60, 80, 80, 125);
      };
     
      leftLeg = function() {
-       draw (60, 70, 20, 100);
+       draw (60, 80, 50, 125);
      };
     
     drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3, frame2, frame1]; 
